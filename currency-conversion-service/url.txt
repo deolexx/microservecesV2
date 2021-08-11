@@ -13,3 +13,6 @@ port :8765
 URL http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/USD/to/EUR
     http://localhost:8765/CURRENCY-CONVERSION/currency-conversion/from/USD/to/RUB/quantity/20
     http://localhost:8765/currency-conversion/currency-conversion/from/USD/to/RUB/quantity/20
+
+URL after configuring api routes
+    http://localhost:8765/currency-exchange/from/USD/to/EUR
