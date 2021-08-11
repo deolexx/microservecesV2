@@ -1,0 +1,5 @@
+http://localhost:8000/currency-exchange/from/USD/to/INR
+
+
+place into VM options field inside the run configuration window to override default application port
+-Dserver.port=8001

@@ -1,0 +1,10 @@
+currency-conversion-service
+port :8100
+URL http://localhost:8100/currency-conversion-feign/from/USD/to/RUB/quantity/20
+    http://localhost:8100/currency-conversion/from/USD/to/RUB/quantity/20
+currency-exchange-service
+port :8000
+URL http://localhost:8000/currency-exchange/from/USD/to/EUR
+naming-server
+port :8761
+URL http://localhost:8761/

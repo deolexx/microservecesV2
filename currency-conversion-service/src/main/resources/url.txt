@@ -1,0 +1,2 @@
+http://localhost:8100/currency-conversion/from/USD/to/UAH/quantity/10
+
