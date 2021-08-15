@@ -16,7 +16,7 @@ public class CircuitBreakerController {
     @GetMapping("/sample-api")
     @Retry(name = "default",fallbackMethod = "hardcodedResponse")
 //    @CircuitBreaker(name = "default", fallbackMethod = "hardcodedResponse")
-
+// docker run -p 5000:5000  in28min/todo-rest-api-h2:1.0.0.RELEASE
     public String sampleApi() {
         logger.info("sample api call received");
         ResponseEntity<String> forEntity = new RestTemplate().getForEntity("http://localhost:8080/some-dummy-url", String.class);
